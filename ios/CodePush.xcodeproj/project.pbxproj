@@ -11,6 +11,82 @@
 		1B23B9141BF9267B000BB2F0 /* RCTConvert+CodePushInstallMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B9131BF9267B000BB2F0 /* RCTConvert+CodePushInstallMode.m */; };
 		1B762E901C9A5E9A006EF800 /* CodePushErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B762E8F1C9A5E9A006EF800 /* CodePushErrorUtils.m */; };
 		1BCC09A71CC19EB700DDC0DD /* RCTConvert+CodePushUpdateState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC09A61CC19EB700DDC0DD /* RCTConvert+CodePushUpdateState.m */; };
+		3D136CD62111E04B001440B6 /* JWTCryptoSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = F886642F1F4AD1EE0036D01B /* JWTCryptoSecurity.m */; };
+		3D136CD72111E04B001440B6 /* JWTCoding+VersionThree.m in Sources */ = {isa = PBXBuildFile; fileRef = F886643F1F4AD1EE0036D01B /* JWTCoding+VersionThree.m */; };
+		3D136CD82111E04B001440B6 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0024D1C0E2880004C3CEC /* aeskey.c */; };
+		3D136CD92111E04B001440B6 /* CodePushUpdateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 540D20111C7684FE00D6EF41 /* CodePushUpdateUtils.m */; };
+		3D136CDA2111E04B001440B6 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0024F1C0E2880004C3CEC /* aestab.c */; };
+		3D136CDB2111E04B001440B6 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002641C0E2880004C3CEC /* mztools.c */; };
+		3D136CDC2111E04B001440B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F857367A1F4F155300C9C00A /* README.md */; };
+		3D136CDD2111E04B001440B6 /* JWTCoding+VersionOne.m in Sources */ = {isa = PBXBuildFile; fileRef = F886643D1F4AD1EE0036D01B /* JWTCoding+VersionOne.m */; };
+		3D136CDE2111E04B001440B6 /* RCTConvert+CodePushUpdateState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC09A61CC19EB700DDC0DD /* RCTConvert+CodePushUpdateState.m */; };
+		3D136CDF2111E04B001440B6 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002681C0E2880004C3CEC /* zip.c */; };
+		3D136CE02111E04B001440B6 /* JWTClaimsSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664341F4AD1EE0036D01B /* JWTClaimsSet.m */; };
+		3D136CE12111E04B001440B6 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A0026B1C0E2880004C3CEC /* SSZipArchive.m */; };
+		3D136CE22111E04B001440B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F85736751F4F03BF00C9C00A /* README.md */; };
+		3D136CE32111E04B001440B6 /* RCTConvert+CodePushInstallMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B9131BF9267B000BB2F0 /* RCTConvert+CodePushInstallMode.m */; };
+		3D136CE42111E04B001440B6 /* JWTCryptoKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F886642B1F4AD1EE0036D01B /* JWTCryptoKey.m */; };
+		3D136CE52111E04B001440B6 /* CodePushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D51F391B6181C2000DA084 /* CodePushConfig.m */; };
+		3D136CE62111E04B001440B6 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0025D1C0E2880004C3CEC /* sha1.c */; };
+		3D136CE72111E04B001440B6 /* JWTClaimsSetVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664381F4AD1EE0036D01B /* JWTClaimsSetVerifier.m */; };
+		3D136CE82111E04B001440B6 /* CodePushDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FFEDDF1BF550630061DD23 /* CodePushDownloadHandler.m */; };
+		3D136CE92111E04B001440B6 /* JWTAlgorithmDataHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F886641F1F4AD1EE0036D01B /* JWTAlgorithmDataHolder.m */; };
+		3D136CEA2111E04B001440B6 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002571C0E2880004C3CEC /* hmac.c */; };
+		3D136CEB2111E04B001440B6 /* JWTClaimsSetSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664361F4AD1EE0036D01B /* JWTClaimsSetSerializer.m */; };
+		3D136CEC2111E04B001440B6 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002591C0E2880004C3CEC /* prng.c */; };
+		3D136CED2111E04B001440B6 /* CodePushTelemetryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5421FE301C58AD5A00986A55 /* CodePushTelemetryManager.m */; };
+		3D136CEE2111E04B001440B6 /* JWTCoding+ResultTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = F886643B1F4AD1EE0036D01B /* JWTCoding+ResultTypes.m */; };
+		3D136CEF2111E04B001440B6 /* JWTCryptoKeyExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F886642D1F4AD1EE0036D01B /* JWTCryptoKeyExtractor.m */; };
+		3D136CF02111E04B001440B6 /* JWTAlgorithmDataHolderChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664211F4AD1EE0036D01B /* JWTAlgorithmDataHolderChain.m */; };
+		3D136CF12111E04B001440B6 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0025B1C0E2880004C3CEC /* pwd2key.c */; };
+		3D136CF22111E04B001440B6 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002621C0E2880004C3CEC /* ioapi.c */; };
+		3D136CF32111E04B001440B6 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002661C0E2880004C3CEC /* unzip.c */; };
+		3D136CF42111E04B001440B6 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002531C0E2880004C3CEC /* entropy.c */; };
+		3D136CF52111E04B001440B6 /* CodePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* CodePush.m */; };
+		3D136CF62111E04B001440B6 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0024C1C0E2880004C3CEC /* aescrypt.c */; };
+		3D136CF72111E04B001440B6 /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F85736741F4F03BF00C9C00A /* MF_Base64Additions.m */; };
+		3D136CF82111E04B001440B6 /* JWTClaim.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664321F4AD1EE0036D01B /* JWTClaim.m */; };
+		3D136CF92111E04B001440B6 /* JWTCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664431F4AD1EE0036D01B /* JWTCoding.m */; };
+		3D136CFA2111E04B001440B6 /* CodePushErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B762E8F1C9A5E9A006EF800 /* CodePushErrorUtils.m */; };
+		3D136CFB2111E04B001440B6 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002551C0E2880004C3CEC /* fileenc.c */; };
+		3D136CFC2111E04B001440B6 /* JWTAlgorithmRSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664271F4AD1EE0036D01B /* JWTAlgorithmRSBase.m */; };
+		3D136CFD2111E04B001440B6 /* JWTErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F886644C1F4AD1EE0036D01B /* JWTErrorDescription.m */; };
+		3D136CFE2111E04B001440B6 /* JWTAlgorithmFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664171F4AD1EE0036D01B /* JWTAlgorithmFactory.m */; };
+		3D136CFF2111E04B001440B6 /* JWTAlgorithmHSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664241F4AD1EE0036D01B /* JWTAlgorithmHSBase.m */; };
+		3D136D002111E04B001440B6 /* JWTBase64Coder.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664491F4AD1EE0036D01B /* JWTBase64Coder.m */; };
+		3D136D012111E04B001440B6 /* JWTAlgorithmNone.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664191F4AD1EE0036D01B /* JWTAlgorithmNone.m */; };
+		3D136D022111E04B001440B6 /* CodePushUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498D8F51D21F14100B5EB43 /* CodePushUtils.m */; };
+		3D136D032111E04B001440B6 /* CodePushPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D4E6C1B96935000B397E9 /* CodePushPackage.m */; };
+		3D136D042111E04B001440B6 /* JWTAlgorithmESBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F886641C1F4AD1EE0036D01B /* JWTAlgorithmESBase.m */; };
+		3D136D052111E04B001440B6 /* JWTCoding+VersionTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = F88664411F4AD1EE0036D01B /* JWTCoding+VersionTwo.m */; };
+		3D136D082111E04B001440B6 /* CodePush.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
+		3D136D0A2111E04B001440B6 /* JWTErrorDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = F886644B1F4AD1EE0036D01B /* JWTErrorDescription.h */; };
+		3D136D0B2111E04B001440B6 /* MF_Base64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F85736731F4F03BF00C9C00A /* MF_Base64Additions.h */; };
+		3D136D0C2111E04B001440B6 /* JWTAlgorithmDataHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = F886641E1F4AD1EE0036D01B /* JWTAlgorithmDataHolder.h */; };
+		3D136D0D2111E04B001440B6 /* JWTAlgorithmNone.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664181F4AD1EE0036D01B /* JWTAlgorithmNone.h */; };
+		3D136D0E2111E04B001440B6 /* JWTClaimsSetSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664351F4AD1EE0036D01B /* JWTClaimsSetSerializer.h */; };
+		3D136D0F2111E04B001440B6 /* JWTAlgorithmESBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F886641B1F4AD1EE0036D01B /* JWTAlgorithmESBase.h */; };
+		3D136D102111E04B001440B6 /* JWTDeprecations.h in Headers */ = {isa = PBXBuildFile; fileRef = F886644A1F4AD1EE0036D01B /* JWTDeprecations.h */; };
+		3D136D112111E04B001440B6 /* JWTClaim.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664311F4AD1EE0036D01B /* JWTClaim.h */; };
+		3D136D122111E04B001440B6 /* JWTAlgorithmRSBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664261F4AD1EE0036D01B /* JWTAlgorithmRSBase.h */; };
+		3D136D132111E04B001440B6 /* JWTCryptoKeyExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = F886642C1F4AD1EE0036D01B /* JWTCryptoKeyExtractor.h */; };
+		3D136D142111E04B001440B6 /* JWTClaimsSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664331F4AD1EE0036D01B /* JWTClaimsSet.h */; };
+		3D136D152111E04B001440B6 /* JWTAlgorithmFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664161F4AD1EE0036D01B /* JWTAlgorithmFactory.h */; };
+		3D136D162111E04B001440B6 /* JWTRSAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664281F4AD1EE0036D01B /* JWTRSAlgorithm.h */; };
+		3D136D172111E04B001440B6 /* JWTCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664421F4AD1EE0036D01B /* JWTCoding.h */; };
+		3D136D182111E04B001440B6 /* JWTAlgorithmHSBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664231F4AD1EE0036D01B /* JWTAlgorithmHSBase.h */; };
+		3D136D192111E04B001440B6 /* JWTCoding+VersionOne.h in Headers */ = {isa = PBXBuildFile; fileRef = F886643C1F4AD1EE0036D01B /* JWTCoding+VersionOne.h */; };
+		3D136D1A2111E04B001440B6 /* JWTBase64Coder.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664481F4AD1EE0036D01B /* JWTBase64Coder.h */; };
+		3D136D1B2111E04B001440B6 /* JWTAlgorithmDataHolderChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664201F4AD1EE0036D01B /* JWTAlgorithmDataHolderChain.h */; };
+		3D136D1C2111E04B001440B6 /* JWTAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664151F4AD1EE0036D01B /* JWTAlgorithm.h */; };
+		3D136D1D2111E04B001440B6 /* JWTCryptoSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = F886642E1F4AD1EE0036D01B /* JWTCryptoSecurity.h */; };
+		3D136D1E2111E04B001440B6 /* JWT.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664451F4AD1EE0036D01B /* JWT.h */; };
+		3D136D1F2111E04B001440B6 /* JWTCryptoKey.h in Headers */ = {isa = PBXBuildFile; fileRef = F886642A1F4AD1EE0036D01B /* JWTCryptoKey.h */; };
+		3D136D202111E04B001440B6 /* JWTCoding+VersionThree.h in Headers */ = {isa = PBXBuildFile; fileRef = F886643E1F4AD1EE0036D01B /* JWTCoding+VersionThree.h */; };
+		3D136D212111E04B001440B6 /* JWTClaimsSetVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664371F4AD1EE0036D01B /* JWTClaimsSetVerifier.h */; };
+		3D136D222111E04B001440B6 /* CodePush.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
+		3D136D232111E04B001440B6 /* JWTCoding+VersionTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = F88664401F4AD1EE0036D01B /* JWTCoding+VersionTwo.h */; };
+		3D136D242111E04B001440B6 /* JWTCoding+ResultTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F886643A1F4AD1EE0036D01B /* JWTCoding+ResultTypes.h */; };
 		540D20121C7684FE00D6EF41 /* CodePushUpdateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 540D20111C7684FE00D6EF41 /* CodePushUpdateUtils.m */; };
 		5421FE311C58AD5A00986A55 /* CodePushTelemetryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5421FE301C58AD5A00986A55 /* CodePushTelemetryManager.m */; };
 		5498D8F61D21F14100B5EB43 /* CodePushUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498D8F51D21F14100B5EB43 /* CodePushUtils.m */; };
@@ -29,32 +105,6 @@
 		54A002781C0E2880004C3CEC /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002681C0E2880004C3CEC /* zip.c */; };
 		54A002791C0E2880004C3CEC /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A0026B1C0E2880004C3CEC /* SSZipArchive.m */; };
 		54FFEDE01BF550630061DD23 /* CodePushDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FFEDDF1BF550630061DD23 /* CodePushDownloadHandler.m */; };
-		6463C82D1EBA0CFB0095B8CD /* CodePushUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5498D8F51D21F14100B5EB43 /* CodePushUtils.m */; };
-		6463C82E1EBA0CFB0095B8CD /* CodePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* CodePush.m */; };
-		6463C82F1EBA0CFB0095B8CD /* CodePushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D51F391B6181C2000DA084 /* CodePushConfig.m */; };
-		6463C8301EBA0CFB0095B8CD /* CodePushDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FFEDDF1BF550630061DD23 /* CodePushDownloadHandler.m */; };
-		6463C8311EBA0CFB0095B8CD /* CodePushErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B762E8F1C9A5E9A006EF800 /* CodePushErrorUtils.m */; };
-		6463C8321EBA0CFB0095B8CD /* CodePushPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D4E6C1B96935000B397E9 /* CodePushPackage.m */; };
-		6463C8331EBA0CFB0095B8CD /* CodePushTelemetryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5421FE301C58AD5A00986A55 /* CodePushTelemetryManager.m */; };
-		6463C8341EBA0CFB0095B8CD /* CodePushUpdateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 540D20111C7684FE00D6EF41 /* CodePushUpdateUtils.m */; };
-		6463C8351EBA0CFB0095B8CD /* RCTConvert+CodePushInstallMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B9131BF9267B000BB2F0 /* RCTConvert+CodePushInstallMode.m */; };
-		6463C8361EBA0CFB0095B8CD /* RCTConvert+CodePushUpdateState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCC09A61CC19EB700DDC0DD /* RCTConvert+CodePushUpdateState.m */; };
-		6463C8371EBA0CFB0095B8CD /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0024C1C0E2880004C3CEC /* aescrypt.c */; };
-		6463C8381EBA0CFB0095B8CD /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0024D1C0E2880004C3CEC /* aeskey.c */; };
-		6463C8391EBA0CFB0095B8CD /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0024F1C0E2880004C3CEC /* aestab.c */; };
-		6463C83A1EBA0CFB0095B8CD /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002531C0E2880004C3CEC /* entropy.c */; };
-		6463C83B1EBA0CFB0095B8CD /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002551C0E2880004C3CEC /* fileenc.c */; };
-		6463C83C1EBA0CFB0095B8CD /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002571C0E2880004C3CEC /* hmac.c */; };
-		6463C83D1EBA0CFB0095B8CD /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002591C0E2880004C3CEC /* prng.c */; };
-		6463C83E1EBA0CFB0095B8CD /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0025B1C0E2880004C3CEC /* pwd2key.c */; };
-		6463C83F1EBA0CFB0095B8CD /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A0025D1C0E2880004C3CEC /* sha1.c */; };
-		6463C8401EBA0CFB0095B8CD /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002621C0E2880004C3CEC /* ioapi.c */; };
-		6463C8411EBA0CFB0095B8CD /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002641C0E2880004C3CEC /* mztools.c */; };
-		6463C8421EBA0CFB0095B8CD /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002661C0E2880004C3CEC /* unzip.c */; };
-		6463C8431EBA0CFB0095B8CD /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 54A002681C0E2880004C3CEC /* zip.c */; };
-		6463C8441EBA0CFB0095B8CD /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A0026B1C0E2880004C3CEC /* SSZipArchive.m */; };
-		6463C8451EBA0D1F0095B8CD /* CodePush.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
-		6463C8471EBA0D290095B8CD /* CodePush.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
 		810D4E6D1B96935000B397E9 /* CodePushPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D4E6C1B96935000B397E9 /* CodePushPackage.m */; };
 		81D51F3A1B6181C2000DA084 /* CodePushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D51F391B6181C2000DA084 /* CodePushConfig.m */; };
 		8482F84C1E24C58300F793DB /* CodePush.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13BE3DEC1AC21097009241FE /* CodePush.h */; };
@@ -112,6 +162,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		3D136D072111E04B001440B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/CodePush;
+			dstSubfolderSpec = 16;
+			files = (
+				3D136D082111E04B001440B6 /* CodePush.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,16 +179,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				8482F84C1E24C58300F793DB /* CodePush.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6463C8221EBA0CB60095B8CD /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				6463C8451EBA0D1F0095B8CD /* CodePush.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +191,7 @@
 		1B23B9131BF9267B000BB2F0 /* RCTConvert+CodePushInstallMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCTConvert+CodePushInstallMode.m"; path = "CodePush/RCTConvert+CodePushInstallMode.m"; sourceTree = "<group>"; };
 		1B762E8F1C9A5E9A006EF800 /* CodePushErrorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodePushErrorUtils.m; path = CodePush/CodePushErrorUtils.m; sourceTree = "<group>"; };
 		1BCC09A61CC19EB700DDC0DD /* RCTConvert+CodePushUpdateState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCTConvert+CodePushUpdateState.m"; path = "CodePush/RCTConvert+CodePushUpdateState.m"; sourceTree = "<group>"; };
+		3D136D282111E04B001440B6 /* libCodePush-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCodePush-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		540D20111C7684FE00D6EF41 /* CodePushUpdateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodePushUpdateUtils.m; path = CodePush/CodePushUpdateUtils.m; sourceTree = "<group>"; };
 		5421FE301C58AD5A00986A55 /* CodePushTelemetryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodePushTelemetryManager.m; path = CodePush/CodePushTelemetryManager.m; sourceTree = "<group>"; };
 		5498D8F51D21F14100B5EB43 /* CodePushUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodePushUtils.m; path = CodePush/CodePushUtils.m; sourceTree = "<group>"; };
@@ -232,18 +283,17 @@
 		F886644A1F4AD1EE0036D01B /* JWTDeprecations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTDeprecations.h; sourceTree = "<group>"; };
 		F886644B1F4AD1EE0036D01B /* JWTErrorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTErrorDescription.h; sourceTree = "<group>"; };
 		F886644C1F4AD1EE0036D01B /* JWTErrorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTErrorDescription.m; sourceTree = "<group>"; };
-		F886647B1F4ADB500036D01B /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCodePush.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58B511D81A9E6C8500147676 /* Frameworks */ = {
+		3D136D062111E04B001440B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6463C8211EBA0CB60095B8CD /* Frameworks */ = {
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,7 +387,7 @@
 				54A002481C0E2880004C3CEC /* SSZipArchive */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				C31BB4D5018A48D5288C5137 /* Frameworks */,
-				F886647B1F4ADB500036D01B /* libCodePush.a */,
+				3D136D282111E04B001440B6 /* libCodePush-tvOS.a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -523,11 +573,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6463C8461EBA0D230095B8CD /* Headers */ = {
+		3D136D092111E04B001440B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6463C8471EBA0D290095B8CD /* CodePush.h in Headers */,
+				3D136D0A2111E04B001440B6 /* JWTErrorDescription.h in Headers */,
+				3D136D0B2111E04B001440B6 /* MF_Base64Additions.h in Headers */,
+				3D136D0C2111E04B001440B6 /* JWTAlgorithmDataHolder.h in Headers */,
+				3D136D0D2111E04B001440B6 /* JWTAlgorithmNone.h in Headers */,
+				3D136D0E2111E04B001440B6 /* JWTClaimsSetSerializer.h in Headers */,
+				3D136D0F2111E04B001440B6 /* JWTAlgorithmESBase.h in Headers */,
+				3D136D102111E04B001440B6 /* JWTDeprecations.h in Headers */,
+				3D136D112111E04B001440B6 /* JWTClaim.h in Headers */,
+				3D136D122111E04B001440B6 /* JWTAlgorithmRSBase.h in Headers */,
+				3D136D132111E04B001440B6 /* JWTCryptoKeyExtractor.h in Headers */,
+				3D136D142111E04B001440B6 /* JWTClaimsSet.h in Headers */,
+				3D136D152111E04B001440B6 /* JWTAlgorithmFactory.h in Headers */,
+				3D136D162111E04B001440B6 /* JWTRSAlgorithm.h in Headers */,
+				3D136D172111E04B001440B6 /* JWTCoding.h in Headers */,
+				3D136D182111E04B001440B6 /* JWTAlgorithmHSBase.h in Headers */,
+				3D136D192111E04B001440B6 /* JWTCoding+VersionOne.h in Headers */,
+				3D136D1A2111E04B001440B6 /* JWTBase64Coder.h in Headers */,
+				3D136D1B2111E04B001440B6 /* JWTAlgorithmDataHolderChain.h in Headers */,
+				3D136D1C2111E04B001440B6 /* JWTAlgorithm.h in Headers */,
+				3D136D1D2111E04B001440B6 /* JWTCryptoSecurity.h in Headers */,
+				3D136D1E2111E04B001440B6 /* JWT.h in Headers */,
+				3D136D1F2111E04B001440B6 /* JWTCryptoKey.h in Headers */,
+				3D136D202111E04B001440B6 /* JWTCoding+VersionThree.h in Headers */,
+				3D136D212111E04B001440B6 /* JWTClaimsSetVerifier.h in Headers */,
+				3D136D222111E04B001440B6 /* CodePush.h in Headers */,
+				3D136D232111E04B001440B6 /* JWTCoding+VersionTwo.h in Headers */,
+				3D136D242111E04B001440B6 /* JWTCoding+ResultTypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +644,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3D136CD42111E04B001440B6 /* CodePush-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D136D252111E04B001440B6 /* Build configuration list for PBXNativeTarget "CodePush-tvOS" */;
+			buildPhases = (
+				3D136CD52111E04B001440B6 /* Sources */,
+				3D136D062111E04B001440B6 /* Frameworks */,
+				3D136D072111E04B001440B6 /* CopyFiles */,
+				3D136D092111E04B001440B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CodePush-tvOS";
+			productName = RCTDataManager;
+			productReference = 3D136D282111E04B001440B6 /* libCodePush-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		58B511DA1A9E6C8500147676 /* CodePush */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "CodePush" */;
@@ -586,24 +680,6 @@
 			productReference = 134814201AA4EA6300B7C361 /* libCodePush.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6463C8231EBA0CB60095B8CD /* CodePush-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6463C82C1EBA0CB60095B8CD /* Build configuration list for PBXNativeTarget "CodePush-tvOS" */;
-			buildPhases = (
-				6463C8201EBA0CB60095B8CD /* Sources */,
-				6463C8211EBA0CB60095B8CD /* Frameworks */,
-				6463C8221EBA0CB60095B8CD /* CopyFiles */,
-				6463C8461EBA0D230095B8CD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CodePush-tvOS";
-			productName = "CodePush-tvOS";
-			productReference = F886647B1F4ADB500036D01B /* libCodePush.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -615,10 +691,6 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					6463C8231EBA0CB60095B8CD = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -635,12 +707,67 @@
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* CodePush */,
-				6463C8231EBA0CB60095B8CD /* CodePush-tvOS */,
+				3D136CD42111E04B001440B6 /* CodePush-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3D136CD52111E04B001440B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D136CD62111E04B001440B6 /* JWTCryptoSecurity.m in Sources */,
+				3D136CD72111E04B001440B6 /* JWTCoding+VersionThree.m in Sources */,
+				3D136CD82111E04B001440B6 /* aeskey.c in Sources */,
+				3D136CD92111E04B001440B6 /* CodePushUpdateUtils.m in Sources */,
+				3D136CDA2111E04B001440B6 /* aestab.c in Sources */,
+				3D136CDB2111E04B001440B6 /* mztools.c in Sources */,
+				3D136CDC2111E04B001440B6 /* README.md in Sources */,
+				3D136CDD2111E04B001440B6 /* JWTCoding+VersionOne.m in Sources */,
+				3D136CDE2111E04B001440B6 /* RCTConvert+CodePushUpdateState.m in Sources */,
+				3D136CDF2111E04B001440B6 /* zip.c in Sources */,
+				3D136CE02111E04B001440B6 /* JWTClaimsSet.m in Sources */,
+				3D136CE12111E04B001440B6 /* SSZipArchive.m in Sources */,
+				3D136CE22111E04B001440B6 /* README.md in Sources */,
+				3D136CE32111E04B001440B6 /* RCTConvert+CodePushInstallMode.m in Sources */,
+				3D136CE42111E04B001440B6 /* JWTCryptoKey.m in Sources */,
+				3D136CE52111E04B001440B6 /* CodePushConfig.m in Sources */,
+				3D136CE62111E04B001440B6 /* sha1.c in Sources */,
+				3D136CE72111E04B001440B6 /* JWTClaimsSetVerifier.m in Sources */,
+				3D136CE82111E04B001440B6 /* CodePushDownloadHandler.m in Sources */,
+				3D136CE92111E04B001440B6 /* JWTAlgorithmDataHolder.m in Sources */,
+				3D136CEA2111E04B001440B6 /* hmac.c in Sources */,
+				3D136CEB2111E04B001440B6 /* JWTClaimsSetSerializer.m in Sources */,
+				3D136CEC2111E04B001440B6 /* prng.c in Sources */,
+				3D136CED2111E04B001440B6 /* CodePushTelemetryManager.m in Sources */,
+				3D136CEE2111E04B001440B6 /* JWTCoding+ResultTypes.m in Sources */,
+				3D136CEF2111E04B001440B6 /* JWTCryptoKeyExtractor.m in Sources */,
+				3D136CF02111E04B001440B6 /* JWTAlgorithmDataHolderChain.m in Sources */,
+				3D136CF12111E04B001440B6 /* pwd2key.c in Sources */,
+				3D136CF22111E04B001440B6 /* ioapi.c in Sources */,
+				3D136CF32111E04B001440B6 /* unzip.c in Sources */,
+				3D136CF42111E04B001440B6 /* entropy.c in Sources */,
+				3D136CF52111E04B001440B6 /* CodePush.m in Sources */,
+				3D136CF62111E04B001440B6 /* aescrypt.c in Sources */,
+				3D136CF72111E04B001440B6 /* MF_Base64Additions.m in Sources */,
+				3D136CF82111E04B001440B6 /* JWTClaim.m in Sources */,
+				3D136CF92111E04B001440B6 /* JWTCoding.m in Sources */,
+				3D136CFA2111E04B001440B6 /* CodePushErrorUtils.m in Sources */,
+				3D136CFB2111E04B001440B6 /* fileenc.c in Sources */,
+				3D136CFC2111E04B001440B6 /* JWTAlgorithmRSBase.m in Sources */,
+				3D136CFD2111E04B001440B6 /* JWTErrorDescription.m in Sources */,
+				3D136CFE2111E04B001440B6 /* JWTAlgorithmFactory.m in Sources */,
+				3D136CFF2111E04B001440B6 /* JWTAlgorithmHSBase.m in Sources */,
+				3D136D002111E04B001440B6 /* JWTBase64Coder.m in Sources */,
+				3D136D012111E04B001440B6 /* JWTAlgorithmNone.m in Sources */,
+				3D136D022111E04B001440B6 /* CodePushUtils.m in Sources */,
+				3D136D032111E04B001440B6 /* CodePushPackage.m in Sources */,
+				3D136D042111E04B001440B6 /* JWTAlgorithmESBase.m in Sources */,
+				3D136D052111E04B001440B6 /* JWTCoding+VersionTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -696,40 +823,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6463C8201EBA0CB60095B8CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6463C82D1EBA0CFB0095B8CD /* CodePushUtils.m in Sources */,
-				6463C82E1EBA0CFB0095B8CD /* CodePush.m in Sources */,
-				6463C82F1EBA0CFB0095B8CD /* CodePushConfig.m in Sources */,
-				6463C8301EBA0CFB0095B8CD /* CodePushDownloadHandler.m in Sources */,
-				6463C8311EBA0CFB0095B8CD /* CodePushErrorUtils.m in Sources */,
-				6463C8321EBA0CFB0095B8CD /* CodePushPackage.m in Sources */,
-				6463C8331EBA0CFB0095B8CD /* CodePushTelemetryManager.m in Sources */,
-				6463C8341EBA0CFB0095B8CD /* CodePushUpdateUtils.m in Sources */,
-				6463C8351EBA0CFB0095B8CD /* RCTConvert+CodePushInstallMode.m in Sources */,
-				6463C8361EBA0CFB0095B8CD /* RCTConvert+CodePushUpdateState.m in Sources */,
-				6463C8371EBA0CFB0095B8CD /* aescrypt.c in Sources */,
-				6463C8381EBA0CFB0095B8CD /* aeskey.c in Sources */,
-				6463C8391EBA0CFB0095B8CD /* aestab.c in Sources */,
-				6463C83A1EBA0CFB0095B8CD /* entropy.c in Sources */,
-				6463C83B1EBA0CFB0095B8CD /* fileenc.c in Sources */,
-				6463C83C1EBA0CFB0095B8CD /* hmac.c in Sources */,
-				6463C83D1EBA0CFB0095B8CD /* prng.c in Sources */,
-				6463C83E1EBA0CFB0095B8CD /* pwd2key.c in Sources */,
-				6463C83F1EBA0CFB0095B8CD /* sha1.c in Sources */,
-				6463C8401EBA0CFB0095B8CD /* ioapi.c in Sources */,
-				6463C8411EBA0CFB0095B8CD /* mztools.c in Sources */,
-				6463C8421EBA0CFB0095B8CD /* unzip.c in Sources */,
-				6463C8431EBA0CFB0095B8CD /* zip.c in Sources */,
-				6463C8441EBA0CFB0095B8CD /* SSZipArchive.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3D136D262111E04B001440B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRC_ROOT)/JWT/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3D136D272111E04B001440B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRC_ROOT)/JWT/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -851,47 +987,18 @@
 			};
 			name = Release;
 		};
-		6463C82A1EBA0CB60095B8CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = CodePush;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Debug;
-		};
-		6463C82B1EBA0CB60095B8CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_NO_COMMON_BLOCKS = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = CodePush;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3D136D252111E04B001440B6 /* Build configuration list for PBXNativeTarget "CodePush-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D136D262111E04B001440B6 /* Debug */,
+				3D136D272111E04B001440B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "CodePush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -906,15 +1013,6 @@
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
 				58B511F11A9E6C8500147676 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6463C82C1EBA0CB60095B8CD /* Build configuration list for PBXNativeTarget "CodePush-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6463C82A1EBA0CB60095B8CD /* Debug */,
-				6463C82B1EBA0CB60095B8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

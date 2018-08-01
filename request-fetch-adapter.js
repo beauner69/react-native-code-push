@@ -1,4 +1,5 @@
 const packageJson = require("./package.json");
+const fetch = require("cross-fetch");
 
 module.exports = {
   async request(verb, url, requestBody, callback) {
@@ -8,11 +9,11 @@ module.exports = {
     }
 
     const headers = {
-      "Accept": "application/json",
+      Accept: "application/json",
       "Content-Type": "application/json",
       "X-CodePush-Plugin-Name": packageJson.name,
       "X-CodePush-Plugin-Version": packageJson.version,
-      "X-CodePush-SDK-Version": packageJson.dependencies["code-push"]
+      "X-CodePush-SDK-Version": packageJson.dependencies["code-push"],
     };
 
     if (requestBody && typeof requestBody === "object") {
@@ -23,7 +24,7 @@ module.exports = {
       const response = await fetch(url, {
         method: getHttpMethodName(verb),
         headers: headers,
-        body: requestBody
+        body: requestBody,
       });
 
       const statusCode = response.status;
@@ -32,7 +33,7 @@ module.exports = {
     } catch (err) {
       callback(err);
     }
-  }
+  },
 };
 
 function getHttpMethodName(verb) {
@@ -47,6 +48,6 @@ function getHttpMethodName(verb) {
     "TRACE",
     "OPTIONS",
     "CONNECT",
-    "PATCH"
+    "PATCH",
   ][verb];
 }
